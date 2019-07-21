@@ -1,0 +1,25 @@
+{
+  "name": "node-prom-metrics",
+  "version": "0.0.1",
+  "description": "A wrapper using prom-client to automate metrics instrumentation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joaopaulosr95/node-prom-metrics.git"
+  },
+  "keywords": [],
+  "author": "João Paulo Bastos",
+  "license": "ISC",
+  "dependencies": {
+    "prom-client": "^11.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
