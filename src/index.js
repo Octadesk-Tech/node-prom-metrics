@@ -20,6 +20,15 @@ class Metrics {
     }
 
     /**
+     * Set default labels to be appended to every single metric generated in the whole execution
+     * based on an object {key1:value1, key2:value2}
+     * @param {Object} labelNames
+     */
+    setDefaultLabelNames(labelNames) {
+        this._register.setDefaultLabels(labelNames)
+    }
+
+    /**
      * Despite the fact that this class is totally server-framework independent, this method is
      * intended to help as a callback for route resolving in express.js scenarios (example) so
      * one can retrieve all the metrics stored in Prometheus registry

@@ -1,6 +1,7 @@
 const express = require("express")
 const Metrics = require("../src").getInstance()
 const morgan = require("morgan")
+const os = require("os")
 
 const PORT = 9001
 const app = express()
@@ -51,6 +52,11 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
 	console.log(`Server listening to ${PORT}, metrics exposed on /metrics endpoint`)
 	
+	Metrics.setDefaultLabelNames({
+		hostname: os.hostname(),
+		foo: "bar"
+	})
+
 	// Register a requests_total metric to be used anywhere in the application
 	Metrics.counter("http_requests_total", "Total HTTP requets processed", ["route", "method", "status"])
 	
