@@ -14,7 +14,7 @@
   "author": "Octadesk",
   "license": "ISC",
   "dependencies": {
-    "prom-client": "^11.5.3"
+    "prom-client": "^14.0.0"
   },
   "devDependencies": {
     "@jedmao/semantic-release-npm-github-config": "^1.0.9",
