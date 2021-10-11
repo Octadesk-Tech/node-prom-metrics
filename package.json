@@ -1,5 +1,5 @@
 {
-  "name": "@octadesk/node-prom-metrics",
+  "name": "@octadesk-tech/node-prom-metrics",
   "version": "1.0.0",
   "description": "A wrapper using prom-client to automate metrics instrumentation",
   "main": "src/index.js",
