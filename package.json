@@ -1,6 +1,6 @@
 {
-  "name": "node-prom-metrics",
-  "version": "0.0.1",
+  "name": "@octadesk/node-prom-metrics",
+  "version": "1.0.0",
   "description": "A wrapper using prom-client to automate metrics instrumentation",
   "main": "src/index.js",
   "scripts": {
@@ -11,15 +11,17 @@
     "url": "git@github.com:Octadesk-Tech/node-prom-metrics.git"
   },
   "keywords": [],
-  "author": "João Paulo Bastos",
+  "author": "Octadesk",
   "license": "ISC",
   "dependencies": {
     "prom-client": "^11.5.3"
   },
   "devDependencies": {
+    "@jedmao/semantic-release-npm-github-config": "^1.0.9",
     "eslint": "^6.0.1",
     "express": "^4.17.1",
     "morgan": "^1.9.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "semantic-release": "^18.0.0"
   }
 }

@@ -1,0 +1,5 @@
+example
+.prettier*
+release.config.js
+.github
+.gitignore
