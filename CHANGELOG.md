@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Octadesk-Tech/node-prom-metrics/compare/v1.0.0...v1.0.1) (2021-10-11)
+
+
+### Bug Fixes
+
+* including NODE_AUTH_TOKEN ([02481df](https://github.com/Octadesk-Tech/node-prom-metrics/commit/02481df3dc36d826d20387d038182c26ec84d095))
+
 # 1.0.0 (2021-10-11)
 
 
